@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context=".views.addTransacao">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atualizar transação"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="42dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor da transação:"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/dark_gray"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:inputType="numberDecimal"
+        android:id="@+id/edtValor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/dark_gray"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        android:id="@+id/edtDescricao"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data:"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:textColor="@color/dark_gray"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="date"
+        android:textSize="16sp"
+        android:id="@+id/edtData"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="Atualizar transação"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/lato_bold"
+        android:id="@+id/btnConfirmaAtt"/>
+
+<!--    <Button-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:text="Deletar transação"-->
+<!--        android:backgroundTint="@color/red"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:fontFamily="@font/lato_bold"-->
+<!--        android:id="@+id/btnConfirmaDel"/>-->
+
+</LinearLayout>

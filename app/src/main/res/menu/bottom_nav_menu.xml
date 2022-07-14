@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/miHome"
+        android:title="Home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/miCartao"
+        android:title="Cartões"
+        android:enabled="true"
+        android:icon="@drawable/ic_card"/>
+
+    <item android:id="@+id/placeholder"
+        android:enabled="false"
+        android:title=""/>
+
+    <item android:id="@+id/miMetas"
+        android:title="Metas"
+        android:enabled="true"
+        android:icon="@drawable/ic_seta_cima"/>
+
+    <item android:id="@+id/miPerfil"
+        android:title="Perfil"
+        android:enabled="true"
+        android:icon="@drawable/ic_person"/>
+</menu>

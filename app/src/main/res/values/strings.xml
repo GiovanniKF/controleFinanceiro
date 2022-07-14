@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">controleFinanceiro</string>
+    <string name="title_activity_hometeste">hometeste</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="cadastrar">Não possui uma conta? Cadastre-se <u>aqui</u></string>
+
+    <string-array name="pagamentos">
+        <item>Dinheiro</item>
+        <item>Cartão (Débito)</item>
+        <item>Cartão (Crédito)</item>
+    </string-array>
+
+</resources>
